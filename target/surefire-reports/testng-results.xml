@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68713" started-at="2021-07-19T15:49:52 AEST" finished-at="2021-07-19T15:51:01 AEST">
+    <groups>
+    </groups>
+    <test name="TestOne" duration-ms="68713" started-at="2021-07-19T15:49:52 AEST" finished-at="2021-07-19T15:51:01 AEST">
+      <class name="Testcases.LandingPageTestCases">
+        <test-method status="PASS" signature="createAccountTestcase()[pri:0, instance:Testcases.LandingPageTestCases@60d8c9b7]" name="createAccountTestcase" duration-ms="34913" started-at="2021-07-19T15:49:52 AEST" finished-at="2021-07-19T15:50:27 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTestcase -->
+        <test-method status="PASS" signature="landingPageTestCases_01()[pri:0, instance:Testcases.LandingPageTestCases@60d8c9b7]" name="landingPageTestCases_01" duration-ms="33680" started-at="2021-07-19T15:50:27 AEST" finished-at="2021-07-19T15:51:01 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTestCases_01 -->
+      </class> <!-- Testcases.LandingPageTestCases -->
+    </test> <!-- TestOne -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -5,7 +5,6 @@ import java.util.Arrays;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
-import org.testng.ITestNGListener;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -51,7 +50,6 @@ public class TestNgListners implements ITestListener{
 		}
 		System.out.println("Firsto");
 		test.addScreenCaptureFromPath("C:\\Users\\IGSA937002\\eclipse-workspace\\PageObjectModelPageFactory\\target\\screenShot\\error.png", "Scrrenshot");
-
 		System.out.println("First");
 		Markup m = MarkupHelper.createLabel(Text, ExtentColor.RED);
 		test.log(Status.FAIL, m);

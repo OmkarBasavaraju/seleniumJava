@@ -1,8 +1,6 @@
 package Testcases;
 
-import org.junit.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 
 import Base.Base;
 import Page.CreateAccount;

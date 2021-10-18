@@ -1,7 +1,6 @@
 package Testcases;
 
 import org.testng.annotations.Test;
-
 import Base.Base;
 import Page.CreateAccount;
 import Page.LandingPage;

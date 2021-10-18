@@ -2,6 +2,9 @@ package Listners;
 
 import java.io.IOException;
 import java.util.Arrays;
+import Base.Base;
+import utilities.ExtentReport;
+import utilities.screenShot;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -14,12 +17,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
-import utilities.ExtentReport;
-import utilities.screenShot;
-
-
-
-public class TestNgListners implements ITestListener{
+public class TestNgListners extends Base implements ITestListener{
 	public static ExtentTest test;
 	
 	ExtentReport Report = new ExtentReport();
@@ -43,7 +41,7 @@ public class TestNgListners implements ITestListener{
 		String details = Arrays.toString(result.getThrowable().getStackTrace());
 		String Text = "<Details><Summary>Click Below to see the failure reason</Summary>" + details + "</Details>";
 		try {
-			utilities.screenShot.tajeScreenShot();
+			screenShot.tajeScreenShot();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
